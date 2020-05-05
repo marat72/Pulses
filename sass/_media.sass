@@ -137,32 +137,134 @@
             margin-top: 15px
             font-size: 26px
 @media (max-width: 575px)
+    .container
+        width: 520px
+        padding: 0
+        margin: 0 auto
+        margin: 0 10px 0 10px
+    .header
+        &__logo
+            width: 218px
+        &__official
+            display: none
+    .contacts
+        a
+            display: block
+            font-size: 24px
+        .button
+            width: 197px
+            height: 35px
+            font-size: 17px
+            margin: 0
+
+    .promo
+        &__wrapper
+            align-items: center
+        &__header
+            font-size: 35px
+        &__subheader
+            font-size: 20px
+        .icons
+            width: 510px
+            justify-content: center
+        .icon
+            width: 165px
+            font-size: 20px
+    .catalog
+        &__button
+            width: 305px
+        a
+            font-size: 20px
+            span
+                font-size: 32px
+    .advantages
+        &__title
+            font-size: 34px
+    .logos
+        flex-direction: column
+        .icon
+            width: 516px
+            &__descr
+                font-size: 29px
+            img
+                width: 170px
+            p
+                font-size: 36px
+        
     .free
         min-width: 560px
+        .header
+            font-size: 21px
+            margin: 0px 0 0 50px
+        .subheader
+            margin: 30px 0 36px 50px
+            font-size: 20px
+        .feed-form
+            margin-left: 50px
+            input
+                width: 380px
+            .button
+                width: 267px
+                height: 60px
+                font-size: 23px
     .clock
         min-width: 560px
     .catalog
-        &-item
-            width: 260px
-            &__img
-                height: 120px
-            &__subtitle
-                font-size: 18px
-            &__descr
-                font-size: 15px
-            &__link
-                    font-size: 15px
-            &__wrapper
-                width: calc(233% + 1px);
-    .reviews
-        min-width: 560px
-        &__descr
-            width: 350px
-            padding: 0 
+        &__tab
+            width: 153px
+            height: 54px
             font-size: 16px
+            line-height: 49px
+        &-item
+            width: 559px
+            padding: 20px 30px 20px 30px
+            &__img
+                height: 245px
+            &__subtitle
+                font-size: 27px
+            &__descr
+                display: block
+                text-align: center
+                font-size: 29px
+            &__link
+                    font-size: 27px
+            &__wrapper
+                width: calc(199% + 40px)
+            &__price
+                font-size: 35px
+            &__old-price
+                font-size: 30px
+            .button
+                width: 192px
+                height: 66px
+                font-size: 25px
+    .reviews
+        &__title
+            font-size: 33px
+            min-width: 560px
+        &__block
+            flex-direction: column
+            display: block
+        &__descr
+            width: 385px
+            padding: 0 
+            font-size: 22px
+            display: block
+            margin: 0 auto
+            margin-top: 142px
         &__round
-            width: 140px
-            height: 140px
+            width: 328px
+            height: 234px
+            display: block
+            margin: 0 auto
+        &__subtitle
+                font-size: 30px
+                text-align: center
+        &__subdescr
+            font-size: 18px
+            text-align: center
+        &__text
+            font-size: 26px;
     .footer
         min-width: 560px
         &__info
